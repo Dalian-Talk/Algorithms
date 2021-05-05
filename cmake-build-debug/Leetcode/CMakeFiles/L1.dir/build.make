@@ -77,27 +77,27 @@ include Leetcode/CMakeFiles/L1.dir/progress.make
 # Include the compile flags for this target's objects.
 include Leetcode/CMakeFiles/L1.dir/flags.make
 
-Leetcode/CMakeFiles/L1.dir/main1.cpp.o: Leetcode/CMakeFiles/L1.dir/flags.make
-Leetcode/CMakeFiles/L1.dir/main1.cpp.o: ../Leetcode/main1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Leetcode/CMakeFiles/L1.dir/main1.cpp.o"
-	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug/Leetcode && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/L1.dir/main1.cpp.o -c /Users/keye/CLionProjects/Algorithms/Leetcode/main1.cpp
+Leetcode/CMakeFiles/L1.dir/LT_0001_two_sum.cpp.o: Leetcode/CMakeFiles/L1.dir/flags.make
+Leetcode/CMakeFiles/L1.dir/LT_0001_two_sum.cpp.o: ../Leetcode/LT_0001_two_sum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Leetcode/CMakeFiles/L1.dir/LT_0001_two_sum.cpp.o"
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug/Leetcode && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/L1.dir/LT_0001_two_sum.cpp.o -c /Users/keye/CLionProjects/Algorithms/Leetcode/LT_0001_two_sum.cpp
 
-Leetcode/CMakeFiles/L1.dir/main1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/L1.dir/main1.cpp.i"
-	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug/Leetcode && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/keye/CLionProjects/Algorithms/Leetcode/main1.cpp > CMakeFiles/L1.dir/main1.cpp.i
+Leetcode/CMakeFiles/L1.dir/LT_0001_two_sum.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/L1.dir/LT_0001_two_sum.cpp.i"
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug/Leetcode && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/keye/CLionProjects/Algorithms/Leetcode/LT_0001_two_sum.cpp > CMakeFiles/L1.dir/LT_0001_two_sum.cpp.i
 
-Leetcode/CMakeFiles/L1.dir/main1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/L1.dir/main1.cpp.s"
-	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug/Leetcode && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/keye/CLionProjects/Algorithms/Leetcode/main1.cpp -o CMakeFiles/L1.dir/main1.cpp.s
+Leetcode/CMakeFiles/L1.dir/LT_0001_two_sum.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/L1.dir/LT_0001_two_sum.cpp.s"
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug/Leetcode && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/keye/CLionProjects/Algorithms/Leetcode/LT_0001_two_sum.cpp -o CMakeFiles/L1.dir/LT_0001_two_sum.cpp.s
 
 # Object files for target L1
 L1_OBJECTS = \
-"CMakeFiles/L1.dir/main1.cpp.o"
+"CMakeFiles/L1.dir/LT_0001_two_sum.cpp.o"
 
 # External object files for target L1
 L1_EXTERNAL_OBJECTS =
 
-Leetcode/L1: Leetcode/CMakeFiles/L1.dir/main1.cpp.o
+Leetcode/L1: Leetcode/CMakeFiles/L1.dir/LT_0001_two_sum.cpp.o
 Leetcode/L1: Leetcode/CMakeFiles/L1.dir/build.make
 Leetcode/L1: Leetcode/CMakeFiles/L1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable L1"

@@ -3,4 +3,4 @@ project(Algorithms)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(L1 main1.cpp)
+add_executable(L1 LT_0001_two_sum.cpp)

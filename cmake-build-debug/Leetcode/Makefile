@@ -145,32 +145,32 @@ L1/fast:
 	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L1.dir/build.make Leetcode/CMakeFiles/L1.dir/build
 .PHONY : L1/fast
 
-main1.o: main1.cpp.o
+LT_0001_two_sum.o: LT_0001_two_sum.cpp.o
 
-.PHONY : main1.o
+.PHONY : LT_0001_two_sum.o
 
 # target to build an object file
-main1.cpp.o:
-	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L1.dir/build.make Leetcode/CMakeFiles/L1.dir/main1.cpp.o
-.PHONY : main1.cpp.o
+LT_0001_two_sum.cpp.o:
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L1.dir/build.make Leetcode/CMakeFiles/L1.dir/LT_0001_two_sum.cpp.o
+.PHONY : LT_0001_two_sum.cpp.o
 
-main1.i: main1.cpp.i
+LT_0001_two_sum.i: LT_0001_two_sum.cpp.i
 
-.PHONY : main1.i
+.PHONY : LT_0001_two_sum.i
 
 # target to preprocess a source file
-main1.cpp.i:
-	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L1.dir/build.make Leetcode/CMakeFiles/L1.dir/main1.cpp.i
-.PHONY : main1.cpp.i
+LT_0001_two_sum.cpp.i:
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L1.dir/build.make Leetcode/CMakeFiles/L1.dir/LT_0001_two_sum.cpp.i
+.PHONY : LT_0001_two_sum.cpp.i
 
-main1.s: main1.cpp.s
+LT_0001_two_sum.s: LT_0001_two_sum.cpp.s
 
-.PHONY : main1.s
+.PHONY : LT_0001_two_sum.s
 
 # target to generate assembly for a file
-main1.cpp.s:
-	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L1.dir/build.make Leetcode/CMakeFiles/L1.dir/main1.cpp.s
-.PHONY : main1.cpp.s
+LT_0001_two_sum.cpp.s:
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L1.dir/build.make Leetcode/CMakeFiles/L1.dir/LT_0001_two_sum.cpp.s
+.PHONY : LT_0001_two_sum.cpp.s
 
 # Help Target
 help:
@@ -181,9 +181,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... L1"
-	@echo "... main1.o"
-	@echo "... main1.i"
-	@echo "... main1.s"
+	@echo "... LT_0001_two_sum.o"
+	@echo "... LT_0001_two_sum.i"
+	@echo "... LT_0001_two_sum.s"
 .PHONY : help
 
 
