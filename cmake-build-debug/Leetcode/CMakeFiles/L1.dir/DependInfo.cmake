@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/keye/CLionProjects/Algorithms/Leetcode/LT_0001_two_sum.cpp" "/Users/keye/CLionProjects/Algorithms/cmake-build-debug/Leetcode/CMakeFiles/L1.dir/LT_0001_two_sum.cpp.o"
-  "/Users/keye/CLionProjects/Algorithms/Leetcode/LT_0002_add_two_numbers.cpp" "/Users/keye/CLionProjects/Algorithms/cmake-build-debug/Leetcode/CMakeFiles/L1.dir/LT_0002_add_two_numbers.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

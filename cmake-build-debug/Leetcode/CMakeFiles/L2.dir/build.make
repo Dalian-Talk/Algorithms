@@ -77,27 +77,27 @@ include Leetcode/CMakeFiles/L2.dir/progress.make
 # Include the compile flags for this target's objects.
 include Leetcode/CMakeFiles/L2.dir/flags.make
 
-Leetcode/CMakeFiles/L2.dir/main2.cpp.o: Leetcode/CMakeFiles/L2.dir/flags.make
-Leetcode/CMakeFiles/L2.dir/main2.cpp.o: ../Leetcode/main2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Leetcode/CMakeFiles/L2.dir/main2.cpp.o"
-	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug/Leetcode && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/L2.dir/main2.cpp.o -c /Users/keye/CLionProjects/Algorithms/Leetcode/main2.cpp
+Leetcode/CMakeFiles/L2.dir/LT_0002_add_two_numbers.cpp.o: Leetcode/CMakeFiles/L2.dir/flags.make
+Leetcode/CMakeFiles/L2.dir/LT_0002_add_two_numbers.cpp.o: ../Leetcode/LT_0002_add_two_numbers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Leetcode/CMakeFiles/L2.dir/LT_0002_add_two_numbers.cpp.o"
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug/Leetcode && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/L2.dir/LT_0002_add_two_numbers.cpp.o -c /Users/keye/CLionProjects/Algorithms/Leetcode/LT_0002_add_two_numbers.cpp
 
-Leetcode/CMakeFiles/L2.dir/main2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/L2.dir/main2.cpp.i"
-	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug/Leetcode && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/keye/CLionProjects/Algorithms/Leetcode/main2.cpp > CMakeFiles/L2.dir/main2.cpp.i
+Leetcode/CMakeFiles/L2.dir/LT_0002_add_two_numbers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/L2.dir/LT_0002_add_two_numbers.cpp.i"
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug/Leetcode && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/keye/CLionProjects/Algorithms/Leetcode/LT_0002_add_two_numbers.cpp > CMakeFiles/L2.dir/LT_0002_add_two_numbers.cpp.i
 
-Leetcode/CMakeFiles/L2.dir/main2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/L2.dir/main2.cpp.s"
-	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug/Leetcode && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/keye/CLionProjects/Algorithms/Leetcode/main2.cpp -o CMakeFiles/L2.dir/main2.cpp.s
+Leetcode/CMakeFiles/L2.dir/LT_0002_add_two_numbers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/L2.dir/LT_0002_add_two_numbers.cpp.s"
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug/Leetcode && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/keye/CLionProjects/Algorithms/Leetcode/LT_0002_add_two_numbers.cpp -o CMakeFiles/L2.dir/LT_0002_add_two_numbers.cpp.s
 
 # Object files for target L2
 L2_OBJECTS = \
-"CMakeFiles/L2.dir/main2.cpp.o"
+"CMakeFiles/L2.dir/LT_0002_add_two_numbers.cpp.o"
 
 # External object files for target L2
 L2_EXTERNAL_OBJECTS =
 
-Leetcode/L2: Leetcode/CMakeFiles/L2.dir/main2.cpp.o
+Leetcode/L2: Leetcode/CMakeFiles/L2.dir/LT_0002_add_two_numbers.cpp.o
 Leetcode/L2: Leetcode/CMakeFiles/L2.dir/build.make
 Leetcode/L2: Leetcode/CMakeFiles/L2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable L2"

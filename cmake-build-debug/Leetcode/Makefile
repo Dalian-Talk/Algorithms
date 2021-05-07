@@ -131,6 +131,36 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+Leetcode/CMakeFiles/L3.dir/rule:
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Leetcode/CMakeFiles/L3.dir/rule
+.PHONY : Leetcode/CMakeFiles/L3.dir/rule
+
+# Convenience name for target.
+L3: Leetcode/CMakeFiles/L3.dir/rule
+
+.PHONY : L3
+
+# fast build rule for target.
+L3/fast:
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L3.dir/build.make Leetcode/CMakeFiles/L3.dir/build
+.PHONY : L3/fast
+
+# Convenience name for target.
+Leetcode/CMakeFiles/L2.dir/rule:
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Leetcode/CMakeFiles/L2.dir/rule
+.PHONY : Leetcode/CMakeFiles/L2.dir/rule
+
+# Convenience name for target.
+L2: Leetcode/CMakeFiles/L2.dir/rule
+
+.PHONY : L2
+
+# fast build rule for target.
+L2/fast:
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L2.dir/build.make Leetcode/CMakeFiles/L2.dir/build
+.PHONY : L2/fast
+
+# Convenience name for target.
 Leetcode/CMakeFiles/L1.dir/rule:
 	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Leetcode/CMakeFiles/L1.dir/rule
 .PHONY : Leetcode/CMakeFiles/L1.dir/rule
@@ -178,7 +208,7 @@ LT_0002_add_two_numbers.o: LT_0002_add_two_numbers.cpp.o
 
 # target to build an object file
 LT_0002_add_two_numbers.cpp.o:
-	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L1.dir/build.make Leetcode/CMakeFiles/L1.dir/LT_0002_add_two_numbers.cpp.o
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L2.dir/build.make Leetcode/CMakeFiles/L2.dir/LT_0002_add_two_numbers.cpp.o
 .PHONY : LT_0002_add_two_numbers.cpp.o
 
 LT_0002_add_two_numbers.i: LT_0002_add_two_numbers.cpp.i
@@ -187,7 +217,7 @@ LT_0002_add_two_numbers.i: LT_0002_add_two_numbers.cpp.i
 
 # target to preprocess a source file
 LT_0002_add_two_numbers.cpp.i:
-	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L1.dir/build.make Leetcode/CMakeFiles/L1.dir/LT_0002_add_two_numbers.cpp.i
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L2.dir/build.make Leetcode/CMakeFiles/L2.dir/LT_0002_add_two_numbers.cpp.i
 .PHONY : LT_0002_add_two_numbers.cpp.i
 
 LT_0002_add_two_numbers.s: LT_0002_add_two_numbers.cpp.s
@@ -196,8 +226,35 @@ LT_0002_add_two_numbers.s: LT_0002_add_two_numbers.cpp.s
 
 # target to generate assembly for a file
 LT_0002_add_two_numbers.cpp.s:
-	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L1.dir/build.make Leetcode/CMakeFiles/L1.dir/LT_0002_add_two_numbers.cpp.s
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L2.dir/build.make Leetcode/CMakeFiles/L2.dir/LT_0002_add_two_numbers.cpp.s
 .PHONY : LT_0002_add_two_numbers.cpp.s
+
+LT_0003_longest_substring_without_repeating_characters.o: LT_0003_longest_substring_without_repeating_characters.cpp.o
+
+.PHONY : LT_0003_longest_substring_without_repeating_characters.o
+
+# target to build an object file
+LT_0003_longest_substring_without_repeating_characters.cpp.o:
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L3.dir/build.make Leetcode/CMakeFiles/L3.dir/LT_0003_longest_substring_without_repeating_characters.cpp.o
+.PHONY : LT_0003_longest_substring_without_repeating_characters.cpp.o
+
+LT_0003_longest_substring_without_repeating_characters.i: LT_0003_longest_substring_without_repeating_characters.cpp.i
+
+.PHONY : LT_0003_longest_substring_without_repeating_characters.i
+
+# target to preprocess a source file
+LT_0003_longest_substring_without_repeating_characters.cpp.i:
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L3.dir/build.make Leetcode/CMakeFiles/L3.dir/LT_0003_longest_substring_without_repeating_characters.cpp.i
+.PHONY : LT_0003_longest_substring_without_repeating_characters.cpp.i
+
+LT_0003_longest_substring_without_repeating_characters.s: LT_0003_longest_substring_without_repeating_characters.cpp.s
+
+.PHONY : LT_0003_longest_substring_without_repeating_characters.s
+
+# target to generate assembly for a file
+LT_0003_longest_substring_without_repeating_characters.cpp.s:
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L3.dir/build.make Leetcode/CMakeFiles/L3.dir/LT_0003_longest_substring_without_repeating_characters.cpp.s
+.PHONY : LT_0003_longest_substring_without_repeating_characters.cpp.s
 
 # Help Target
 help:
@@ -208,12 +265,17 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... L1"
+	@echo "... L2"
+	@echo "... L3"
 	@echo "... LT_0001_two_sum.o"
 	@echo "... LT_0001_two_sum.i"
 	@echo "... LT_0001_two_sum.s"
 	@echo "... LT_0002_add_two_numbers.o"
 	@echo "... LT_0002_add_two_numbers.i"
 	@echo "... LT_0002_add_two_numbers.s"
+	@echo "... LT_0003_longest_substring_without_repeating_characters.o"
+	@echo "... LT_0003_longest_substring_without_repeating_characters.i"
+	@echo "... LT_0003_longest_substring_without_repeating_characters.s"
 .PHONY : help
 
 

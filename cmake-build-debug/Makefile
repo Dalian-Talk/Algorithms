@@ -144,6 +144,32 @@ Algorithms/fast:
 .PHONY : Algorithms/fast
 
 #=============================================================================
+# Target rules for targets named L3
+
+# Build rule for target.
+L3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 L3
+.PHONY : L3
+
+# fast build rule for target.
+L3/fast:
+	$(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L3.dir/build.make Leetcode/CMakeFiles/L3.dir/build
+.PHONY : L3/fast
+
+#=============================================================================
+# Target rules for targets named L2
+
+# Build rule for target.
+L2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 L2
+.PHONY : L2
+
+# fast build rule for target.
+L2/fast:
+	$(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L2.dir/build.make Leetcode/CMakeFiles/L2.dir/build
+.PHONY : L2/fast
+
+#=============================================================================
 # Target rules for targets named L1
 
 # Build rule for target.
@@ -193,6 +219,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Algorithms"
 	@echo "... L1"
+	@echo "... L2"
+	@echo "... L3"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
