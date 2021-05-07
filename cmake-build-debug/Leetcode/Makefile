@@ -172,6 +172,33 @@ LT_0001_two_sum.cpp.s:
 	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L1.dir/build.make Leetcode/CMakeFiles/L1.dir/LT_0001_two_sum.cpp.s
 .PHONY : LT_0001_two_sum.cpp.s
 
+LT_0002_add_two_numbers.o: LT_0002_add_two_numbers.cpp.o
+
+.PHONY : LT_0002_add_two_numbers.o
+
+# target to build an object file
+LT_0002_add_two_numbers.cpp.o:
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L1.dir/build.make Leetcode/CMakeFiles/L1.dir/LT_0002_add_two_numbers.cpp.o
+.PHONY : LT_0002_add_two_numbers.cpp.o
+
+LT_0002_add_two_numbers.i: LT_0002_add_two_numbers.cpp.i
+
+.PHONY : LT_0002_add_two_numbers.i
+
+# target to preprocess a source file
+LT_0002_add_two_numbers.cpp.i:
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L1.dir/build.make Leetcode/CMakeFiles/L1.dir/LT_0002_add_two_numbers.cpp.i
+.PHONY : LT_0002_add_two_numbers.cpp.i
+
+LT_0002_add_two_numbers.s: LT_0002_add_two_numbers.cpp.s
+
+.PHONY : LT_0002_add_two_numbers.s
+
+# target to generate assembly for a file
+LT_0002_add_two_numbers.cpp.s:
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L1.dir/build.make Leetcode/CMakeFiles/L1.dir/LT_0002_add_two_numbers.cpp.s
+.PHONY : LT_0002_add_two_numbers.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -184,6 +211,9 @@ help:
 	@echo "... LT_0001_two_sum.o"
 	@echo "... LT_0001_two_sum.i"
 	@echo "... LT_0001_two_sum.s"
+	@echo "... LT_0002_add_two_numbers.o"
+	@echo "... LT_0002_add_two_numbers.i"
+	@echo "... LT_0002_add_two_numbers.s"
 .PHONY : help
 
 
