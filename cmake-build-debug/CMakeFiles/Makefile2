@@ -94,8 +94,9 @@ clean: Leetcode/clean
 
 # Recursive "all" directory target.
 Leetcode/all: Leetcode/CMakeFiles/L3.dir/all
-Leetcode/all: Leetcode/CMakeFiles/L2.dir/all
 Leetcode/all: Leetcode/CMakeFiles/L1.dir/all
+Leetcode/all: Leetcode/CMakeFiles/L4.dir/all
+Leetcode/all: Leetcode/CMakeFiles/L2.dir/all
 
 .PHONY : Leetcode/all
 
@@ -106,8 +107,9 @@ Leetcode/preinstall:
 
 # Recursive "clean" directory target.
 Leetcode/clean: Leetcode/CMakeFiles/L3.dir/clean
-Leetcode/clean: Leetcode/CMakeFiles/L2.dir/clean
 Leetcode/clean: Leetcode/CMakeFiles/L1.dir/clean
+Leetcode/clean: Leetcode/CMakeFiles/L4.dir/clean
+Leetcode/clean: Leetcode/CMakeFiles/L2.dir/clean
 
 .PHONY : Leetcode/clean
 
@@ -118,12 +120,12 @@ Leetcode/clean: Leetcode/CMakeFiles/L1.dir/clean
 CMakeFiles/Algorithms.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Algorithms"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Algorithms"
 .PHONY : CMakeFiles/Algorithms.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Algorithms.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Algorithms.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Algorithms.dir/rule
@@ -145,7 +147,7 @@ CMakeFiles/Algorithms.dir/clean:
 Leetcode/CMakeFiles/L3.dir/all:
 	$(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L3.dir/build.make Leetcode/CMakeFiles/L3.dir/depend
 	$(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L3.dir/build.make Leetcode/CMakeFiles/L3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target L3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target L3"
 .PHONY : Leetcode/CMakeFiles/L3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -166,40 +168,13 @@ Leetcode/CMakeFiles/L3.dir/clean:
 .PHONY : Leetcode/CMakeFiles/L3.dir/clean
 
 #=============================================================================
-# Target rules for target Leetcode/CMakeFiles/L2.dir
-
-# All Build rule for target.
-Leetcode/CMakeFiles/L2.dir/all:
-	$(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L2.dir/build.make Leetcode/CMakeFiles/L2.dir/depend
-	$(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L2.dir/build.make Leetcode/CMakeFiles/L2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target L2"
-.PHONY : Leetcode/CMakeFiles/L2.dir/all
-
-# Build rule for subdir invocation for target.
-Leetcode/CMakeFiles/L2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Leetcode/CMakeFiles/L2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles 0
-.PHONY : Leetcode/CMakeFiles/L2.dir/rule
-
-# Convenience name for target.
-L2: Leetcode/CMakeFiles/L2.dir/rule
-
-.PHONY : L2
-
-# clean rule for target.
-Leetcode/CMakeFiles/L2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L2.dir/build.make Leetcode/CMakeFiles/L2.dir/clean
-.PHONY : Leetcode/CMakeFiles/L2.dir/clean
-
-#=============================================================================
 # Target rules for target Leetcode/CMakeFiles/L1.dir
 
 # All Build rule for target.
 Leetcode/CMakeFiles/L1.dir/all:
 	$(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L1.dir/build.make Leetcode/CMakeFiles/L1.dir/depend
 	$(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L1.dir/build.make Leetcode/CMakeFiles/L1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target L1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles --progress-num=4,5 "Built target L1"
 .PHONY : Leetcode/CMakeFiles/L1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -218,6 +193,60 @@ L1: Leetcode/CMakeFiles/L1.dir/rule
 Leetcode/CMakeFiles/L1.dir/clean:
 	$(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L1.dir/build.make Leetcode/CMakeFiles/L1.dir/clean
 .PHONY : Leetcode/CMakeFiles/L1.dir/clean
+
+#=============================================================================
+# Target rules for target Leetcode/CMakeFiles/L4.dir
+
+# All Build rule for target.
+Leetcode/CMakeFiles/L4.dir/all:
+	$(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L4.dir/build.make Leetcode/CMakeFiles/L4.dir/depend
+	$(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L4.dir/build.make Leetcode/CMakeFiles/L4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target L4"
+.PHONY : Leetcode/CMakeFiles/L4.dir/all
+
+# Build rule for subdir invocation for target.
+Leetcode/CMakeFiles/L4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Leetcode/CMakeFiles/L4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles 0
+.PHONY : Leetcode/CMakeFiles/L4.dir/rule
+
+# Convenience name for target.
+L4: Leetcode/CMakeFiles/L4.dir/rule
+
+.PHONY : L4
+
+# clean rule for target.
+Leetcode/CMakeFiles/L4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L4.dir/build.make Leetcode/CMakeFiles/L4.dir/clean
+.PHONY : Leetcode/CMakeFiles/L4.dir/clean
+
+#=============================================================================
+# Target rules for target Leetcode/CMakeFiles/L2.dir
+
+# All Build rule for target.
+Leetcode/CMakeFiles/L2.dir/all:
+	$(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L2.dir/build.make Leetcode/CMakeFiles/L2.dir/depend
+	$(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L2.dir/build.make Leetcode/CMakeFiles/L2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target L2"
+.PHONY : Leetcode/CMakeFiles/L2.dir/all
+
+# Build rule for subdir invocation for target.
+Leetcode/CMakeFiles/L2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Leetcode/CMakeFiles/L2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles 0
+.PHONY : Leetcode/CMakeFiles/L2.dir/rule
+
+# Convenience name for target.
+L2: Leetcode/CMakeFiles/L2.dir/rule
+
+.PHONY : L2
+
+# clean rule for target.
+Leetcode/CMakeFiles/L2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L2.dir/build.make Leetcode/CMakeFiles/L2.dir/clean
+.PHONY : Leetcode/CMakeFiles/L2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

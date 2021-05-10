@@ -157,6 +157,32 @@ L3/fast:
 .PHONY : L3/fast
 
 #=============================================================================
+# Target rules for targets named L1
+
+# Build rule for target.
+L1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 L1
+.PHONY : L1
+
+# fast build rule for target.
+L1/fast:
+	$(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L1.dir/build.make Leetcode/CMakeFiles/L1.dir/build
+.PHONY : L1/fast
+
+#=============================================================================
+# Target rules for targets named L4
+
+# Build rule for target.
+L4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 L4
+.PHONY : L4
+
+# fast build rule for target.
+L4/fast:
+	$(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L4.dir/build.make Leetcode/CMakeFiles/L4.dir/build
+.PHONY : L4/fast
+
+#=============================================================================
 # Target rules for targets named L2
 
 # Build rule for target.
@@ -169,18 +195,32 @@ L2/fast:
 	$(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L2.dir/build.make Leetcode/CMakeFiles/L2.dir/build
 .PHONY : L2/fast
 
-#=============================================================================
-# Target rules for targets named L1
+Leetcode/LT_0004_median_of_two_sorted_arrays.o: Leetcode/LT_0004_median_of_two_sorted_arrays.cpp.o
 
-# Build rule for target.
-L1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 L1
-.PHONY : L1
+.PHONY : Leetcode/LT_0004_median_of_two_sorted_arrays.o
 
-# fast build rule for target.
-L1/fast:
-	$(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L1.dir/build.make Leetcode/CMakeFiles/L1.dir/build
-.PHONY : L1/fast
+# target to build an object file
+Leetcode/LT_0004_median_of_two_sorted_arrays.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Leetcode/LT_0004_median_of_two_sorted_arrays.cpp.o
+.PHONY : Leetcode/LT_0004_median_of_two_sorted_arrays.cpp.o
+
+Leetcode/LT_0004_median_of_two_sorted_arrays.i: Leetcode/LT_0004_median_of_two_sorted_arrays.cpp.i
+
+.PHONY : Leetcode/LT_0004_median_of_two_sorted_arrays.i
+
+# target to preprocess a source file
+Leetcode/LT_0004_median_of_two_sorted_arrays.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Leetcode/LT_0004_median_of_two_sorted_arrays.cpp.i
+.PHONY : Leetcode/LT_0004_median_of_two_sorted_arrays.cpp.i
+
+Leetcode/LT_0004_median_of_two_sorted_arrays.s: Leetcode/LT_0004_median_of_two_sorted_arrays.cpp.s
+
+.PHONY : Leetcode/LT_0004_median_of_two_sorted_arrays.s
+
+# target to generate assembly for a file
+Leetcode/LT_0004_median_of_two_sorted_arrays.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/Leetcode/LT_0004_median_of_two_sorted_arrays.cpp.s
+.PHONY : Leetcode/LT_0004_median_of_two_sorted_arrays.cpp.s
 
 main.o: main.cpp.o
 
@@ -221,6 +261,10 @@ help:
 	@echo "... L1"
 	@echo "... L2"
 	@echo "... L3"
+	@echo "... L4"
+	@echo "... Leetcode/LT_0004_median_of_two_sorted_arrays.o"
+	@echo "... Leetcode/LT_0004_median_of_two_sorted_arrays.i"
+	@echo "... Leetcode/LT_0004_median_of_two_sorted_arrays.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

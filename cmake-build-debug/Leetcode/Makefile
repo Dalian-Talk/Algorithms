@@ -146,21 +146,6 @@ L3/fast:
 .PHONY : L3/fast
 
 # Convenience name for target.
-Leetcode/CMakeFiles/L2.dir/rule:
-	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Leetcode/CMakeFiles/L2.dir/rule
-.PHONY : Leetcode/CMakeFiles/L2.dir/rule
-
-# Convenience name for target.
-L2: Leetcode/CMakeFiles/L2.dir/rule
-
-.PHONY : L2
-
-# fast build rule for target.
-L2/fast:
-	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L2.dir/build.make Leetcode/CMakeFiles/L2.dir/build
-.PHONY : L2/fast
-
-# Convenience name for target.
 Leetcode/CMakeFiles/L1.dir/rule:
 	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Leetcode/CMakeFiles/L1.dir/rule
 .PHONY : Leetcode/CMakeFiles/L1.dir/rule
@@ -174,6 +159,36 @@ L1: Leetcode/CMakeFiles/L1.dir/rule
 L1/fast:
 	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L1.dir/build.make Leetcode/CMakeFiles/L1.dir/build
 .PHONY : L1/fast
+
+# Convenience name for target.
+Leetcode/CMakeFiles/L4.dir/rule:
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Leetcode/CMakeFiles/L4.dir/rule
+.PHONY : Leetcode/CMakeFiles/L4.dir/rule
+
+# Convenience name for target.
+L4: Leetcode/CMakeFiles/L4.dir/rule
+
+.PHONY : L4
+
+# fast build rule for target.
+L4/fast:
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L4.dir/build.make Leetcode/CMakeFiles/L4.dir/build
+.PHONY : L4/fast
+
+# Convenience name for target.
+Leetcode/CMakeFiles/L2.dir/rule:
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Leetcode/CMakeFiles/L2.dir/rule
+.PHONY : Leetcode/CMakeFiles/L2.dir/rule
+
+# Convenience name for target.
+L2: Leetcode/CMakeFiles/L2.dir/rule
+
+.PHONY : L2
+
+# fast build rule for target.
+L2/fast:
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L2.dir/build.make Leetcode/CMakeFiles/L2.dir/build
+.PHONY : L2/fast
 
 LT_0001_two_sum.o: LT_0001_two_sum.cpp.o
 
@@ -256,6 +271,33 @@ LT_0003_longest_substring_without_repeating_characters.cpp.s:
 	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L3.dir/build.make Leetcode/CMakeFiles/L3.dir/LT_0003_longest_substring_without_repeating_characters.cpp.s
 .PHONY : LT_0003_longest_substring_without_repeating_characters.cpp.s
 
+LT_0004_median_of_two_sorted_arrays.o: LT_0004_median_of_two_sorted_arrays.cpp.o
+
+.PHONY : LT_0004_median_of_two_sorted_arrays.o
+
+# target to build an object file
+LT_0004_median_of_two_sorted_arrays.cpp.o:
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L4.dir/build.make Leetcode/CMakeFiles/L4.dir/LT_0004_median_of_two_sorted_arrays.cpp.o
+.PHONY : LT_0004_median_of_two_sorted_arrays.cpp.o
+
+LT_0004_median_of_two_sorted_arrays.i: LT_0004_median_of_two_sorted_arrays.cpp.i
+
+.PHONY : LT_0004_median_of_two_sorted_arrays.i
+
+# target to preprocess a source file
+LT_0004_median_of_two_sorted_arrays.cpp.i:
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L4.dir/build.make Leetcode/CMakeFiles/L4.dir/LT_0004_median_of_two_sorted_arrays.cpp.i
+.PHONY : LT_0004_median_of_two_sorted_arrays.cpp.i
+
+LT_0004_median_of_two_sorted_arrays.s: LT_0004_median_of_two_sorted_arrays.cpp.s
+
+.PHONY : LT_0004_median_of_two_sorted_arrays.s
+
+# target to generate assembly for a file
+LT_0004_median_of_two_sorted_arrays.cpp.s:
+	cd /Users/keye/CLionProjects/Algorithms/cmake-build-debug && $(MAKE) $(MAKESILENT) -f Leetcode/CMakeFiles/L4.dir/build.make Leetcode/CMakeFiles/L4.dir/LT_0004_median_of_two_sorted_arrays.cpp.s
+.PHONY : LT_0004_median_of_two_sorted_arrays.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -267,6 +309,7 @@ help:
 	@echo "... L1"
 	@echo "... L2"
 	@echo "... L3"
+	@echo "... L4"
 	@echo "... LT_0001_two_sum.o"
 	@echo "... LT_0001_two_sum.i"
 	@echo "... LT_0001_two_sum.s"
@@ -276,6 +319,9 @@ help:
 	@echo "... LT_0003_longest_substring_without_repeating_characters.o"
 	@echo "... LT_0003_longest_substring_without_repeating_characters.i"
 	@echo "... LT_0003_longest_substring_without_repeating_characters.s"
+	@echo "... LT_0004_median_of_two_sorted_arrays.o"
+	@echo "... LT_0004_median_of_two_sorted_arrays.i"
+	@echo "... LT_0004_median_of_two_sorted_arrays.s"
 .PHONY : help
 
 
