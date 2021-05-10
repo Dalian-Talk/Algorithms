@@ -1,9 +1,0 @@
-/Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/keye/CLionProjects/Algorithms/cmake-build-debug/CMakeFiles/Algorithms.dir
-/Users/keye/CLionProjects/Algorithms/cmake-build-debug/Leetcode/CMakeFiles/rebuild_cache.dir
-/Users/keye/CLionProjects/Algorithms/cmake-build-debug/Leetcode/CMakeFiles/edit_cache.dir
-/Users/keye/CLionProjects/Algorithms/cmake-build-debug/Leetcode/CMakeFiles/L3.dir
-/Users/keye/CLionProjects/Algorithms/cmake-build-debug/Leetcode/CMakeFiles/L1.dir
-/Users/keye/CLionProjects/Algorithms/cmake-build-debug/Leetcode/CMakeFiles/L4.dir
-/Users/keye/CLionProjects/Algorithms/cmake-build-debug/Leetcode/CMakeFiles/L2.dir
