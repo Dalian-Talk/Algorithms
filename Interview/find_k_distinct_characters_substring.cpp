@@ -36,30 +36,48 @@ int find_k_distinct_characters_substring(string& s, int k) {
     return res.size();
 }
 
-// k = 3
-// a b c d a b c a b c
-
+// k = 5
+// b c a d a b c a b c
+// l   l l r
 
 
 
 int find_k_distinct_characters_substring_1(string& s, int k) {
-    // 用map的方法，快速跳跃
     unordered_map<char, int> m;
     unordered_set<string> res;
     int left = 0, right = 0;
     int length = s.length();
-    while (left < right) {
+    while (right < length) {
         char cur = s[right];
+        if (m[cur] == 0) {
+            m[cur]++;
+            k--;
+        }
+        else {
+            while (left < right && s[left] != cur) {
+                m[s[left]]--;
+                left++;
+                k++;
+            }
+            left++;
+        }
+        if (k == 0) {
+            res.insert(s.substr(left, right - left + 1));
+            m[s[left]]--;
+            left++;
+            k++;
+        }
+        right++;
     }
+    return res.size();
 
 }
 
 
 
-
-
 int main() {
     string s = "abcdabcabc";
-    int k = 3;
-    cout << find_k_distinct_characters_substring(s, k);
+    int k = 4;
+    cout << find_k_distinct_characters_substring(s, k) << endl;
+    cout << find_k_distinct_characters_substring_1(s, k) << endl;
 }
