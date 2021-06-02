@@ -293,7 +293,7 @@ public:
         int cur_res = INT_MAX;
         for (int i = 0; i < n; i++) {
             if (graph[cur][i] > 0) {
-                int child_res = dfs4(graph, memo, i, steps + 1, dst, n);
+                int child_res = dfs4(graph, memo, i, steps - 1, dst, n);
                 if (child_res != INT_MAX) {
                     cur_res = min(cur_res, child_res + graph[cur][i]);
                 }
