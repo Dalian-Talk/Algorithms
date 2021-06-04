@@ -8,6 +8,9 @@ class Solution {
 public:
     /*
      * 不难。。就是找到后要处理first 和last这个问题。。。2333不是简单的mid + 1。 mid - 1就能处理的。。可以有多个重复的。。要循环找最左最右的
+     *
+     *
+     * 加一句 sorted好的东西。很多时候可以用binary search 把时间复杂度降到logn级别！！！
      */
     vector<int> searchRange(vector<int>& nums, int target) {
         int n = nums.size();
