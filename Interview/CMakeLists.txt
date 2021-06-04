@@ -3,4 +3,8 @@ project(Algorithms)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(I1 find_k_distinct_characters_substring.cpp)
+add_executable(I1 find_k_distinct_characters_substring_exact_k_length.cpp)
+add_executable(I2 find_k_distinct_characters_substring_any_length.cpp)
+add_executable(I3 maximum_path_sum_in_matrix.cpp)
+add_executable(I4 meandering_array.cpp)
+add_executable(I5 interleaving_positive_and_negative_numbers.cpp)

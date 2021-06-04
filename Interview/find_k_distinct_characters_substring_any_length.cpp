@@ -4,12 +4,8 @@
 #include <vector>
 
 using namespace std;
-// 0 1 2 3 4
-// a b c a b c a b c a
-// k = 4
-// a b c
-// a b c d e
-// a b a
+
+// 这个代码还可以改进改进更好看。。
 
 
 int find_k_distinct_characters_substring(string& s, int k) {
@@ -76,7 +72,7 @@ int find_k_distinct_characters_substring_1(string& s, int k) {
 
 
 int main() {
-    string s = "abcdabcabc";
+    string s = "abc";
     int k = 4;
     cout << find_k_distinct_characters_substring(s, k) << endl;
     cout << find_k_distinct_characters_substring_1(s, k) << endl;
