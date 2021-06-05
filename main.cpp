@@ -9,6 +9,7 @@ long test() {
 
 
 int main() {
-    cout << INT_MIN;
+    int a = 1;
+    cout << -a;
     return 0;
 }
