@@ -25,6 +25,7 @@ private:
     void backtracking(vector<int>& candidates, vector<int>& combo, int idx, int cur, int target) {
         if (cur == target) {
             res.push_back(combo);
+            return;
         }
         if (cur > target || idx == candidates.size()) {
             return;
