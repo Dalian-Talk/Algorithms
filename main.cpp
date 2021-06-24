@@ -5,14 +5,9 @@
 
 using namespace std;
 
-long test() {
-    int a = 3;
-    return a;
-}
-
-
 
 int main() {
-    vector<string> b(2, string(3, '.'));
+    vector<int> a;
+    a.push_back(1);
     return 0;
 }
